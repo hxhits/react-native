@@ -47,13 +47,5 @@ class helloworld1 extends Component {
 }
 
 
-class Greeting extends Component {
-  render() {
-    return (
-      <Text>Hello {this.props.navigator.push({name:'huongboy'})}!</Text>
-    );
-  }
-}
-
 
 AppRegistry.registerComponent('helloworld1', () => helloworld1);
